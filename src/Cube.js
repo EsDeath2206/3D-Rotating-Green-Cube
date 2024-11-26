@@ -15,7 +15,7 @@ const Cube = () => {
 
     const geometry = new THREE.BoxGeometry(3, 3, 3); // Cube plus grand
     const material = new THREE.MeshBasicMaterial({
-      color: 0x00ff00,
+      color: 0xff0000, // Change la Couleur du Cube // // Exemple la 0xff0000 = Rouge //
       wireframe: true,
       transparent: true,
       opacity: 0.5,
