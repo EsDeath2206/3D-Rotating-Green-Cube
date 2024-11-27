@@ -13,7 +13,7 @@ const Cube = () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
     mountRef.current.appendChild(renderer.domElement);
 
-    const geometry = new THREE.BoxGeometry(3, 3, 3); // Cube plus grand
+    const geometry = new THREE.IcosahedronGeometry(3); // Cube plus grand // Changer de Forme Ici //
     const material = new THREE.MeshBasicMaterial({
       color: 0xff0000, // Change la Couleur du Cube // // Exemple la 0xff0000 = Rouge //
       wireframe: true,
